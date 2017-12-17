@@ -1,0 +1,15 @@
+{{#if result}}
+{{#each result}}
+<div class="playlist-item col-xs-4">
+    <a href="#/user/{{username}}/playlist/{{id}}" class="no-style">
+        <h3 class="result-title">{{title}}</h3>
+        <p class="result-description">{{description}}</p>
+        <img class="result-image img-circle" src="{{img}}">
+    </a> 
+    <br>
+<a type="button" id="{{id.videoId}}" class="btn btn-default btn-remove special" href="#/user/{{username}}/playlist/{{id}}/remove-from-playlist">Remove from playlist</a>
+</div>
+{{/each}}
+{{else}}
+<h4>You currently have no tracks in your playlist</h4>
+{{/if}}

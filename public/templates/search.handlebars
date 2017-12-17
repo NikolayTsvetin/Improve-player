@@ -1,0 +1,11 @@
+{{#each items}}
+<div class="search-result" id="{{id.videoId}}" data-title='{{snippet.title}}' data-description='{{snippet.description}}' data-img='{{snippet.thumbnails.medium.url}}'>
+    <a href="#/search/{{query}}/{{id.videoId}}" class="no-style">
+        <h3 class="result-title">{{snippet.title}}</h3>
+        <p class="result-description">{{snippet.description}}</p>
+        <img class="result-image" src="{{snippet.thumbnails.medium.url}}">
+    </a>
+    <br>
+    <a type="button"  class="btn btn-default btn-add special" href="#/search/{{query}}/{{id.videoId}}/add-to-playlist">Add to playlist</a>
+</div>
+{{/each}}

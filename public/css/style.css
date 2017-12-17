@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+    background-color: white;
+    margin: 0 auto;
+}
+
+/* NAVIGATION BEGINS */
+.hidden {
+    display: none;
+}
+/* NAVIGATION ENDS */
+
+
+/* CONTENT BEGINS */
+#header {
+    text-align: center;
+    margin: 40px;
+    color: black;
+    font-weight: 800;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.jumbotron p {
+    padding: 20px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+#headline {
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: #006600;
+}
+
+div.col-md-4 p {
+    text-align: center;
+}
+
+/* CONTENT ENDS */
+
+.search-result {
+    max-width: 500px;
+    background: #E6E6E6;
+    border: 2px solid black;
+    box-shadow: 1px 1px 5px grey;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.playlist-item {
+    width: 500px;
+    background: #E6E6E6;
+    border: 2px solid black;
+    box-shadow: 1px 1px 5px grey;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.btn-remove {
+    margin-top: 20px;
+    color: black;
+    border: 2px solid black;
+    background-color: #006600;
+}
+
+.btn-add {
+    margin-top: 20px;
+    color: black;
+    border: 2px solid black;
+    background-color: #006600;
+}
+
+.result-image {
+    margin: auto;
+}
+
+.result-title {
+    color: #006600;
+    text-align: center;
+    font:1.5em 'Anton';
+}
+
+.result-description {
+    font-size: 80%;
+    color: black;
+}
+
+.playlist-item a:link {
+    text-decoration: none!important;
+    color: black;
+}
+
+.special {
+    color: black!important;
+    background-color: #006600!important;
+    border: 2px solid black!important;
+}
+
+.playlist-item a:visited {
+    color: black;
+    border: 2px solid black;
+    background-color: #006600;
+}
+
+.playlist-item .btn a:visited {
+    text-decoration: none!important;
+    color: black;
+    border: 2px solid black;
+    background-color: #006600;
+}
+
+.playlist-item .btn:hover {
+    text-decoration: none!important;
+    color: black;
+    border: 2px solid black;
+    background-color: #006600;
+}
+
+.search-result a:link {
+    text-decoration: none!important;
+}
+
+.search-result a:visited {
+    text-decoration: none!important;
+    color: #337ab7;
+}
+
+.search-result .btn a:link {
+    text-decoration: none!important;
+    color: white;
+}
+
+.search-result .btn a:visited {
+    text-decoration: none!important;
+    color: white;
+}
+
+.search-result .btn {
+    text-decoration: none!important;
+    color: black;
+    font-weight: 800;
+    border: 2px solid black;
+    background-color: #006600;
+}
+
+#credits {
+    background: #FAFAFA;
+    margin-top: 100px;
+}
+
+.img-circle {
+    width: 100px;
+    height: 100px;
+}
+
+.playlist-item img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+}
+
+#player {
+    width: 700px;
+    padding: 50px;
+    background: #FAFAFA;
+    box-shadow:
+        1px 1px 0 rgb(230, 230, 230),
+        2px 2px 0 rgb(230, 230, 230),
+        3px 3px 0 rgb(230, 230, 230),
+        4px 4px 0 rgb(230, 230, 230),
+        5px 5px 0 rgb(230, 230, 230),
+        6px 6px 0 rgb(230, 230, 230),
+        7px 7px 0 rgb(230, 230, 230)
+        ;
+    margin: auto;
+}
+
+
+/* FOOTER BEGINS */
+footer {
+    height: 20%;
+    color: white;
+    background-color: #1B1B1B;
+    margin: 0 auto;
+    padding: 15px;
+}
+footer span.right {
+    float: right;
+}
+/* FOOTER ENDS */
+
+/*SEARCH FIELD*/
+
+* {
+    margin:0;
+    padding:0;
+    font:12pt 'Ubuntu';
+}
+
+.field {
+  display: flex;
+  position: relative; /* check it, it wasnt active */
+  margin: 5em auto;
+  width: 35%;
+  flex-direction: row;
+}
+
+.field>input[type=text],
+.field>button {
+  display:block;
+  font:1.2em 'Ubuntu';
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.6em;
+  border:0.2em solid green;
+}
+
+.field>button {
+  padding:0.6em 0.8em;
+  background-color:green;
+  color:white;
+  border:none;
+}
+
+/* REGISTRATION STARTS */
+
+#registration {
+    max-width: 1000px;
+    margin: auto;
+}
+
+legend {
+   color: #678;
+}
+
+.form-control {
+    width: 95%;
+}
+
+label small {
+    color: #678 !important;
+}
+
+span.req {
+    color:maroon;
+    font-size: 112%;
+}
+
+.valid {
+    font-size: 80%;
+    color: #006600;
+}
+
+.warning {
+    font-size: 80%;
+    color: red;
+}
+
+.container {
+    padding: 16px;
+}
+
+.background {
+    display: none;
+    position: fixed;
+    z-index: 10000000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-top: 50px;
+}
+
+.form-content {
+    padding: 20px;
+    background-color: black;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0 auto;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    border: 2px solid black;
+    width: 50%
+}
+
+@media screen and (max-width: 300px) {
+    #btn-cancel,
+    #btn-signup {
+        width: 100%;
+    }
+}
+
+/* FE */
+
+#home-button {
+    color: #006600;
+    font-weight: 800;
+}
+
+#btn-login {
+    background-color: #006600;
+    border: 2px solid black;
+    color: black;
+}
+
+#btn-register {
+    background-color: #006600;
+    border: 2px solid black;
+    color: black;
+}
+
+#btn-logout {
+    border: 2px solid black;
+    color: black;
+}
+
+#search-field {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-weight: 800;
+}
+
+#search-btn {
+    border-left: 0px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: #006600;
+    color: black;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+/*
+#username-login {
+    border: 2px solid #006600;
+}
+
+#password-login {
+    border: 2px solid #006600;
+}
+*/
+
+#username-login {
+    border: 2px solid black;
+    background-color: #006600;
+    color: black;
+    font-weight: 400;
+}
+
+#password-login {
+    border: 2px solid black;
+    background-color: #006600;
+    color: black;
+    font-weight: 400;
+}
+
+input::-webkit-input-placeholder {
+    color: black !important;
+}
+     
+input:-moz-placeholder { /* Firefox 18- */
+    color: black !important;  
+}
+     
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: black !important;  
+}
+    
+input:-ms-input-placeholder {  
+    color: black !important;  
+}
+
+.form-group input {
+    background-color: #006600;
+    border: 2px solid black;
+    color: black;
+}
+
+.form-group input:focus {
+    background: #006600!important;
+    border: 2px solid black;
+    color: black;
+}
+
+.form-group #btn-cancel {
+    color: black;
+    border: 2px solid black;
+    font-weight: 800;
+}
+
+.form-group #btn-signup {
+    color: black;
+    border: 2px solid black;
+    background-color: #006600;
+    font-weight: 800;
+    float: right;
+}
+
+h4.centered-text {
+    font-weight: 800;
+    color: black;
+}
+
+h3.centered-text {
+    margin: 50px;
+}
+
+h3.info {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 120px;
+}
+
+#credentials {
+    margin: 25px;
+}
+
+#credentials div {
+    height: 20%;
+}
+
+#credentials .glyphicon {
+    color: black;
+    display: block;
+    margin: 20px;
+    font-size: 2em;
+}
+
+#credentials p {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 26px;
+    color: #006600;
+}
+
+#credentials .fa {
+    color: black;
+    display: block;
+    margin: 20px;
+    font-size: 2em;
+}
+
+a.add {
+    background-color: #006600!important;
+    color: black!important;
+    border: 2px solid black!important;
+    margin-left: 24%;
+}
+
+.player {
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,163 @@
+{
+  "users": [
+    {
+      "email": "kokos@abv.bg",
+      "username": "kokos",
+      "passHash": "kokos123",
+      "usernameToLower": "kokos",
+      "id": "0olqasjew0veymcx1dcxr",
+      "authKey": "0olqasjew0veymcx1dcxrNeMUhAUITwtkdByZtayjiYwgkXJmbGDbLePaMCN"
+    },
+    {
+      "email": "ne@abv.bg",
+      "username": "ne",
+      "passHash": "ne123",
+      "usernameToLower": "ne",
+      "id": "0reec0pk71c4zov24bzkt9",
+      "authKey": "0reec0pk71c4zov24bzkt9FKOhxtMqEBdVzfSTSfdWsOzYRyuUwTXgkGnPNS"
+    },
+    {
+      "email": "neshto@abv.bg",
+      "username": "neshto",
+      "passHash": "nehsto",
+      "usernameToLower": "neshto",
+      "id": "0r6zu9ji0gcjc98jda38fr",
+      "authKey": "0r6zu9ji0gcjc98jda38frPlNmsqYMdggDzzmZOtNowneNNrLbEvRdzqCnPk"
+    },
+    {
+      "email": "batman@gmail.com",
+      "username": "b-boy",
+      "passHash": "spiderman",
+      "usernameToLower": "b-boy",
+      "id": "0ecu0djsj3tiwmhadcxr",
+      "authKey": "0ecu0djsj3tiwmhadcxrBgddXLONNRJawguDYrVSwxwgGZLRNknvcfXIoGaJ",
+      "songList": []
+    },
+    {
+      "email": "telerik@telerik.com",
+      "username": "telerik",
+      "passHash": "tel123",
+      "usernameToLower": "telerik",
+      "id": "0gsu96gdt4ronygco9a4i",
+      "authKey": "0gsu96gdt4ronygco9a4ikBfTpTiEZZgHJdZNRnRvmdvOpGEgYwDldTGbkiK",
+      "songList": []
+    },
+    {
+      "email": "ok@ok.ok",
+      "username": "ok",
+      "passHash": "ok123",
+      "usernameToLower": "ok",
+      "id": "09jg43gl108rl9ia5x9a4i",
+      "authKey": "09jg43gl108rl9ia5x9a4icEtuaAtANlZRWsOiefCAVlaHoVuIcWXOiJSmyH",
+      "songList": []
+    },
+    {
+      "email": "demo@demo.com",
+      "username": "demodemo",
+      "passHash": "password",
+      "usernameToLower": "demodemo",
+      "id": "08ajghbxc1violecm1jor",
+      "authKey": "08ajghbxc1violecm1jorTANFvcHxZpdymHDkyLRUtRDevoHYabCHJJtSYHj",
+      "songList": []
+    },
+    {
+      "email": "didexe@gmail.com",
+      "username": "Didexe",
+      "passHash": "e3ea13dbb8d11137b17c4bdb3ba336609924709368a85b0363d1f2c8bee63627",
+      "usernameLower": "didexe",
+      "authKey": "undefinedJiL$K$&yRb&oyDvsnJ^fu%mCL)CT)aEMvzg^tUeD^+*=NmHfVwR",
+      "songList": [
+        {
+          "id": "9qJKxaWb0_A",
+          "title": "Photek - ni ten ichi ryu",
+          "description": "My all-time fave. jungle/dnb video. For those of you who want more info - this is what Discogs has to say about it: Photek -- Ni - Ten - Ichi - Ryu Label: Science ...",
+          "img": "https://i.ytimg.com/vi/9qJKxaWb0_A/mqdefault.jpg"
+        }
+      ],
+      "id": "edfe9529-09ec-4519-8600-3e3190528c72"
+    },
+    {
+      "email": "lambrianayanakieva@gmail.com",
+      "username": "lambriana",
+      "passHash": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "usernameLower": "lambriana",
+      "authKey": "undefinedUb#rgsi#ASOTiNN_XKQDxeGovPLR)%!Epud+%*w(ILl=W&twcSn",
+      "songList": [],
+      "id": "a92abd62-7ac8-4a18-ac44-88907032e3c7"
+    },
+    {
+      "email": "petrov@trfstudio.com",
+      "username": "Daniel",
+      "passHash": "a6c35c7283652272aa933d35b84c2dd352680f5ec729c949218643ed53b98724",
+      "usernameLower": "daniel",
+      "authKey": "undefined-hiO-zmhKYD*ges)EgzT_n@QymT$mN@a*BdYKLX-EXHcLOkZQVJ",
+      "songList": [
+        {
+          "id": "_QazRAjQ9GI",
+          "title": "Underworld - Barking (Full Album)",
+          "description": "\"Underworld - Always Loved A Film\", sound recording administered by: SME and [Merlin] Essential Music. \"Underworld - Moon In Water\", sound recording ...",
+          "img": "https://i.ytimg.com/vi/_QazRAjQ9GI/mqdefault.jpg"
+        },
+        {
+          "id": "jQI9IohmZb4",
+          "title": "Underworld - Beaucoup Fish (Extended Edition)",
+          "description": "This is the extended version of Underworld's 1999 album Beaucoup Fish which includes the extended mixes of Push Upstairs, Jumbo and Moaner as well as a ...",
+          "img": "https://i.ytimg.com/vi/jQI9IohmZb4/mqdefault.jpg"
+        },
+        {
+          "id": "qIyjaSSUvfU",
+          "title": "Photek - Form & Function",
+          "description": "Photek - Form & Function Label: Science Format: CD Country: EU Released: 1998 Genre: Electronic Style: Drum & Bass 1. 00:00 Photek - \"The Seven Samurai ...",
+          "img": "https://i.ytimg.com/vi/qIyjaSSUvfU/mqdefault.jpg"
+        },
+        {
+          "id": "DYsY4wYMQe8",
+          "title": "Photek - The Rain",
+          "description": "Great old school Photek track.",
+          "img": "https://i.ytimg.com/vi/DYsY4wYMQe8/mqdefault.jpg"
+        },
+        {
+          "id": "vcsCCMBei1U",
+          "title": "Photek - Solaris",
+          "description": "Terminus 0:00 Junk 5:26 Glamourama 10:54 ~ Vocals - Marie-Jose Jongerius Mine To Give 16:24 ~ Vocals - Robert Owens Can't Come Down 23:06 ~ Vocals ...",
+          "img": "https://i.ytimg.com/vi/vcsCCMBei1U/mqdefault.jpg"
+        }
+      ],
+      "id": "0ae9a48a-3680-494b-a9cc-a07170a60c63"
+    },
+    {
+      "email": "nikolaytsvetin@gmail.com",
+      "username": "nikolaytsvetin",
+      "passHash": "ce937d940242f27a25bb112f0f5764acf39f1b565bf21f28c3a80678861b33dd",
+      "usernameLower": "nikolaytsvetin",
+      "authKey": "undefinedjpnpOaZABB_@PR)jXkvDCs)+izFCLKpJv)Uu%(DqVl*h!CdnbNJ",
+      "songList": [
+        {
+          "id": "SZDmuHSqwtg",
+          "title": "Future - Used to This ft. Drake",
+          "description": "NEW album \"HNDRXX\" available at: iTunes: http://smarturl.it/HNDRXX Apple Music: http://smarturl.it/HNDRXX.AM Spotify: http://smarturl.it/HNDRXX.",
+          "img": "https://i.ytimg.com/vi/SZDmuHSqwtg/mqdefault.jpg"
+        }
+      ],
+      "id": "099d137f-d166-4fe1-9d93-8d676a150b0d"
+    },
+    {
+      "email": "dero@mero.com",
+      "username": "Dero",
+      "passHash": "37b902a086b2a6a13707076472f7a6deb67cf2e0e44772d12d074d9209e317b7",
+      "usernameLower": "dero",
+      "authKey": "undefineduK!J$AqYWRXBlO*uf@dbtC#^n!bQf!*@MlOt(TWDDU-@_wYH*SU",
+      "songList": [],
+      "id": "cac702b2-be56-4ca5-817e-c234b4dcffb4"
+    },
+    {
+      "email": "",
+      "username": "",
+      "passHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usernameLower": "",
+      "authKey": "undefinedJ()kb-Q)str_QwJMog+&AaZxWRiMsxa^ej(E&XF@Etbc+bep%nP",
+      "songList": [],
+      "id": "e0b9eac3-3f8d-4270-807f-ccac473a1804"
+    }
+  ]
+}

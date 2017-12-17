@@ -1,0 +1,39 @@
+<div class="row form-content">
+    <div class="col-md-12 container">
+        <form>
+        <div class="form-group">
+            <label for="email"><span class="req">* </span> Email Address: </label> 
+                <input class="form-control invalid blur" required type="text" name="email" id = "email-value" />   
+                    <div class="status" id="email-status"></div>
+        </div>
+
+        <div class="form-group">
+            <label for="username"><span class="req">* </span> Username:  <small>This will be your login user name</small> </label> 
+                <input class="form-control invalid blur" type="text" name="username" id = "username-value" required />  
+                    <div id="user-status"></div>
+        </div>
+
+        <div class="form-group">
+            <label for="password"><span class="req">* </span> Password: </label>
+                <input required name="password" type="password" class="form-control inputpass blur" minlength="5" maxlength="16"  id="password-value1" />
+
+            <label for="password"><span class="req">* </span> Password Confirm: </label>
+                <input required name="password" type="password" class="form-control inputpass invalid blur" minlength="5" maxlength="16" id="password-value2" />
+                    <div class="status" id="pass-status"></div>
+        </div>
+
+        <div class="form-group">
+            <a type="button" id="btn-cancel" class = "btn btn-danger" href="#/cancel">Cancel</a>
+            <button type="button" id="btn-signup" class = "btn btn-success">Sign up</button>
+        </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    var registrationFormInputs = document.getElementsByClassName('blur');
+
+    $(registrationFormInputs).blur(function() {
+        $(this).css({'background-color' : '#006600'});
+    });
+</script>
