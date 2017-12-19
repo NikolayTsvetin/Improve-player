@@ -36,6 +36,6 @@ $('body').on('keypress', '#search-field', (e) => {
             .resolve();
         }
     }
-})
+});
 
 $(document).ready(helpers.checkButtons());
