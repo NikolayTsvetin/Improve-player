@@ -33,7 +33,7 @@ class UserController {
                 $('#profile-link').text('Hello, ' + result.result.username);
                 $('#profile-link').removeClass('hidden');
                 location.hash = '#/home';
-                alert('User logged successfully');
+                alertify.success('User logged successfully!');
             });
     }
 
@@ -67,7 +67,7 @@ class UserController {
         data.register(user)
             .then(result => {
                 location.hash = '#/home';
-                alert('You are registered');
+                alertify.success('Congratulations, you are registered!');
             });
     }
 
@@ -80,7 +80,7 @@ class UserController {
         $('#password-login').removeClass('hidden');
         $('#profile-link').text('');
         $('#profile-link').addClass('hidden');
-        alert('Successfully logged out, but why?//if you\'re reading this means that big changes are coming soon.');
+        alertify.error('Successfully logged out, but why?');
         location.hash = '#/home';
     }
 
@@ -90,7 +90,7 @@ class UserController {
         data.postTrack(headervalue, track)
             .then(result => {
                 console.log('Post Track' + result);
-                alert('Track posted? //if you\'re reading this means that big changes are coming soon.');
+                alertify.success('The song is added to your playlist');
             });
     }
 
@@ -100,7 +100,7 @@ class UserController {
         data.deleteTrack(headervalue, id)
             .then(result => {
                 console.log('Delete track' + result);
-                alert('Track removed? //if you\'re reading this means that big changes are coming soon.');
+                alertify.error('The song is removed from your playlist');
             });
     }
 

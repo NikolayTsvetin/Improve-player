@@ -40,7 +40,7 @@ class Tracks {
             userController.addTrack(track);
         }
         else {
-            alert('Error in track.js');
+            alertify.error('You need to be logged in, in order to add songs to your playlist');
             return;
         }
     }
