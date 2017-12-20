@@ -38,4 +38,13 @@ $('body').on('keypress', '#search-field', (e) => {
     }
 });
 
-$(document).ready(helpers.checkButtons());
+$(document).ready(function() {
+    helpers.checkButtons();
+
+    tippy('.searchTip', {
+        placement: 'top',
+        animation: 'scale',
+        duration: 1000,
+        arrow: true
+    });
+});
